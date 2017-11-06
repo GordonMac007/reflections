@@ -1,0 +1,33 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+	I found the approach effective visually, diff did the work for me and I avoided having to toggle between windows and it limited the amound of manual scanning needed.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	Avoid loss through crashes.
+	Give me more confident in tearing down poor code and replacing with new, knowing that if I fail I will be able to revert.
+	Avoid clutter within file structures.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+	Parcel up commits at logical breakpoints.
+	These breakpoints can relate to completed items of work.
+	Easier to describe with a singular comment.
+	Creates an annotated thread of work that collectively is easier to understand and follow.
+	Makes it easier to judge rollback positions if single subject commits are made.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+	Google Docs is aimed at controlling published individial documents such as MS Word, pdf, pictures made and controlled by non-developers. Each document is a
+	single artifact. 
+	Git on the otherhand is purposed with controlling software development where multiple files and programs integrate to form a solution.
+	
+
+How can you use the commands git log and git diff to view the history of files?
+	git log. Use this to list in descending chronological order, all commits that were made.
+	to understand the changes that were made in that commit, use git diff. Do so with the id of the commmit you are studying and the one before it.
+	Use git diff --stat to list +'s and -'s counting the additions and deletions.
+
+
+How might using version control make you more confident to make changes that could break something?
+	Version control covers me. It allows me to step back to the prior 'good' version. Allowing me to 'checkout' previous versions, review them and re-establish these instead.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+    version control on SQL, SSRS reports. C# projects, Jaspersoft reports.
