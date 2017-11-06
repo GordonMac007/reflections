@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+	git's tracking system is put in please, in the folder.
+	this sets up a git repository allowing to track versions.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area allows you a spece to collect the files that you specifically wish to commit to the repository. You chose what to add, by 
+doing so you shape and organise the commits so that they make logical sense in relation to your development through time.
