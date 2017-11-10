@@ -17,3 +17,8 @@ How do the diagrams help you visualize the branch structure?
 	They bring clarity in terms of the various branches that are in play and the sequence of commits per branch.
 	Therefore which items of development are wrapped into the current branch and wheich would need resolved if needing to be 
 	absorbed into a master(e.g). The diagrams also show unaccessable commits that may have been created as a variant but not formalised as a branch.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	The changes that occured within the commits for each of the two branches are combined together in datetime stamp order.
+	to show the new master.
