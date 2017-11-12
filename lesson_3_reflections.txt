@@ -4,3 +4,13 @@ When would you want to create a remote repository rather than keeping all your w
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 	So that you can work independantly on an area of development, keep that sand-boxed from the remote repository, possibly as your 'master' and avoid version control complexity that would arise if you constantly downloading the central 'master'.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	
+	Fork is not actually a Git command. It is a GitHub command. Fork clones a repository from GitHub to GitHub. It keeps a reference back to the original repositlory.
+	
+	Clone is a Git command. It is typically used to copy a repository from GitHub to a local copy when you start contributing to development.
+	Clone can also be used local to local.
+
+	Branch is a Git command, typically used locally to create a new Git controlled version away from the master branch. I believe GitHub allows this too, creating a branch centrally.
+
