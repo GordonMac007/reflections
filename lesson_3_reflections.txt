@@ -14,3 +14,5 @@ Describe the differences between forks, clones, and branches. When would you use
 
 	Branch is a Git command, typically used locally to create a new Git controlled version away from the master branch. I believe GitHub allows this too, creating a branch centrally.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	You can limit or eliminat divergance.
